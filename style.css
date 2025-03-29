@@ -102,31 +102,26 @@ body {
 
 /* 页脚样式 */
 .footer {
-    margin-top: 30px;
-    padding-top: 20px;
-    border-top: 1px solid #eee;
+    margin-top: 40px;
+    padding: 40px 0;
+    border-top: 1px solid #d0d7de;
     text-align: center;
-    color: #7f8c8d;
-    font-size: 14px;
+    color: #57606a;
+    font-size: 12px;
 }
 
 .footer a {
-    color: #3498db;
+    color: #0969da;
     text-decoration: none;
     transition: color 0.2s ease;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
 }
 
 .footer a:hover {
-    color: #2980b9;
+    color: #1a7f37;
 }
 
 .footer p {
     margin: 5px 0;
-    padding-bottom: 15px;
-    border-bottom: 1px dashed #ecf0f1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,8 +129,8 @@ body {
 }
 
 .footer img {
-    width: 28px;
-    height: 28px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
     margin-right: 4px;
     vertical-align: middle;
@@ -144,9 +139,7 @@ body {
 
 .footer .copyright {
     margin-top: 15px;
-    padding-top: 15px;
-    border-top: 1px solid #eee;
-    color: #95a5a6;
+    color: #57606a;
 }
 
 /* 加载动画样式 */
