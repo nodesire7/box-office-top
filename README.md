@@ -52,7 +52,9 @@ This is a web application that displays global movie box office rankings, utiliz
    ```bash
    # 创建.env文件并添加TMDB API密钥
    # Create .env file and add TMDB API key
-   echo "TMDB_API_KEY=YOUR_TMDB_API_KEY_HERE" > .env
+   echo "TMDB_API_KEY=YOUR_TMDB_API_KEY_HERE
+   PORT=3000
+   API_BASE_URL=https://api.example.com" > .env
    ```
 
 4. 启动服务器 | Start server
