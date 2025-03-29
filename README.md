@@ -30,7 +30,7 @@ This is a web application that displays global movie box office rankings, utiliz
 
 1. 克隆或下载本项目到本地 | Clone or download this project
    ```bash
-   git clone [https://github.com/nodesire7/box-office-top.git](https://github.com/nodesire7/box-office-top.git)
+   git clone https://github.com/nodesire7/box-office-top.git
    cd box-office-top
    ```
 
