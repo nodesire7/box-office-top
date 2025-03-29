@@ -114,6 +114,9 @@ body {
     color: #3498db;
     text-decoration: none;
     transition: color 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .footer a:hover {
@@ -124,6 +127,26 @@ body {
     margin: 5px 0;
     padding-bottom: 15px;
     border-bottom: 1px dashed #ecf0f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.footer img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 4px;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    color: #95a5a6;
 }
 
 /* 加载动画样式 */

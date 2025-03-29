@@ -65,9 +65,12 @@ function renderMovieList(movies) {
     movies.forEach(movie => {
         const { rank, movie_name, release_year, box_office_desc, maoyan_id } = movie;
 
-        // 创建电影卡片
-        const card = document.createElement("div");
+        // 创建电影卡片，并添加豆瓣链接
+        const card = document.createElement("a");
         card.className = "movie-card";
+        card.href = `https://movie.douban.com/subject_search?search_text=${encodeURIComponent(movie_name)}`;
+        card.target = "_blank";
+        card.rel = "noopener noreferrer";
 
         // 排名
         const rankSpan = document.createElement("span");
