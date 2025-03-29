@@ -17,6 +17,10 @@ This is a web application that displays global movie box office rankings, utiliz
 
 ![项目效果展示图](B697233D7B158F786516BDFDD5DBC112.png)
 
+## 🖥️ 效果展示 | Preview
+
+![项目效果展示图](B697233D7B158F786516BDFDD5DBC112.png)
+
 ## 🛠️ 技术栈 | Tech Stack
 
 - 🌐 前端 | Frontend：原生JavaScript (ES6+)、HTML5 & CSS3
@@ -117,4 +121,51 @@ This is a web application that displays global movie box office rankings, utiliz
 
 特别感谢[60s项目](https://github.com/vikiboss/60s)提供的电影票房API支持。
 
+<<<<<<< Updated upstream
 Special thanks to the [60s Project](https://github.com/vikiboss/60s) for providing the 60s Movie Box API support.# box-office-top
+=======
+Special thanks to the [60s Project](https://github.com/vikiboss/60s) for providing the Maoyan Movie API support.
+
+## 🐳 Docker部署 | Docker Deployment
+
+### 使用Docker Compose部署 | Deploy with Docker Compose
+
+1. 创建环境变量文件 | Create environment file
+   ```bash
+   # 创建.env文件 | Create .env file
+   cat > .env << EOL
+   PORT=3000
+   API_BASE_URL=your_api_base_url
+   TMDB_API_KEY=your_tmdb_api_key
+   EOL
+   ```
+
+2. 启动服务 | Start service
+   ```bash
+   docker-compose up -d
+   ```
+
+3. 访问应用 | Access application
+   在浏览器中打开 | Open in browser: http://localhost:3000
+
+### 使用Docker直接部署 | Deploy with Docker
+
+1. 构建镜像 | Build image
+   ```bash
+   docker build -t movie-box-office .
+   ```
+
+2. 运行容器 | Run container
+   ```bash
+   docker run -d \
+     -p 3000:3000 \
+     -e PORT=3000 \
+     -e API_BASE_URL=your_api_base_url \
+     -e TMDB_API_KEY=your_tmdb_api_key \
+     --name movie-box-office \
+     movie-box-office
+   ```
+
+3. 访问应用 | Access application
+   在浏览器中打开 | Open in browser: http://localhost:3000
+>>>>>>> Stashed changes
