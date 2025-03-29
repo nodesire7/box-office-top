@@ -12,9 +12,10 @@ This is a web application that displays global movie box office rankings, utiliz
 - ⏱️ 自动定时刷新数据 | Automatic data refresh
 - 🔒 后端代理服务器，保护API密钥安全 | Backend proxy server for API key security
 - 效果截图
-## 效果展示
-[![全球票房排行榜截图](https://raw.githubusercontent.com/nodesire7/box-office-top/main/B697233D7B158F786516BDFDD5DBC112.png)](https://github.com/nodesire7/box-office-top/blob/main/B697233D7B158F786516BDFDD5DBC112.png)
-*点击图片查看大图 | 数据更新于 {2025-03-29}*
+
+## 🖥️ 效果展示 | Preview
+
+![项目效果展示图](B697233D7B158F786516BDFDD5DBC112.png)
 
 ## 🛠️ 技术栈 | Tech Stack
 
