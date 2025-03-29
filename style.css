@@ -184,6 +184,7 @@ body {
     box-shadow: 0 4px 12px rgba(0,0,0,0.04);
     transition: all 0.3s ease;
     position: relative;
+    text-decoration: none;
 }
 
 .movie-card:hover {
