@@ -1,0 +1,14 @@
+# 环境变量文件
+.env
+
+# Node.js依赖
+node_modules/
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
