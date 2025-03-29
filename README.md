@@ -114,6 +114,6 @@ This is a web application that displays global movie box office rankings, utiliz
 
 ## 🙏 致谢 | Acknowledgments
 
-特别感谢[60s项目](https://github.com/vikiboss/60s)提供的猫眼电影API支持。
+特别感谢[60s项目](https://github.com/vikiboss/60s)提供的电影票房API支持。
 
-Special thanks to the [60s Project](https://github.com/vikiboss/60s) for providing the Maoyan Movie API support.# box-office-top
+Special thanks to the [60s Project](https://github.com/vikiboss/60s) for providing the 60s Movie Box API support.# box-office-top
