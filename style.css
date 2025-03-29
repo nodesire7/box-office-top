@@ -98,6 +98,30 @@ body {
     font-size: 16px;
     color: #7f8c8d;
     margin-bottom: 25px;
+}
+
+/* 页脚样式 */
+.footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer a:hover {
+    color: #2980b9;
+}
+
+.footer p {
+    margin: 5px 0;
     padding-bottom: 15px;
     border-bottom: 1px dashed #ecf0f1;
 }

@@ -54,7 +54,8 @@ class TMDBService {
         if (!posterPath) {
             return this.defaultPosterUrl;
         }
-        return `${this.imageBaseUrl}${posterPath}`;
+        const tmdbUrl = `${this.imageBaseUrl}${posterPath}`;
+        return `/api/image-proxy?imageUrl=${encodeURIComponent(tmdbUrl)}`;
     }
 
     // 根据电影名称和年份获取海报URL
