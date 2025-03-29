@@ -17,10 +17,6 @@ This is a web application that displays global movie box office rankings, utiliz
 
 ![项目效果展示图](B697233D7B158F786516BDFDD5DBC112.png)
 
-## 🖥️ 效果展示 | Preview
-
-![项目效果展示图](B697233D7B158F786516BDFDD5DBC112.png)
-
 ## 🛠️ 技术栈 | Tech Stack
 
 - 🌐 前端 | Frontend：原生JavaScript (ES6+)、HTML5 & CSS3
