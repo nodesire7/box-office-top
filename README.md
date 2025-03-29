@@ -1,8 +1,8 @@
 # 🎬 全球票房排行榜 | Global Box Office Rankings
 
-这是一个展示全球电影票房排行榜的网页应用，基于[60s项目](https://github.com/vikiboss/60s)提供的猫眼电影API和TMDB API，实时展示电影数据和精美海报。
+这是一个展示全球电影票房排行榜的网页应用，基于[60s项目](https://github.com/vikiboss/60s)提供的60s电影 API和TMDB API，实时展示电影数据和精美海报。
 
-This is a web application that displays global movie box office rankings, utilizing the Maoyan Movie API from the [60s Project](https://github.com/vikiboss/60s) and TMDB API to showcase real-time movie data and beautiful posters.
+This is a web application that displays global movie box office rankings, utilizing the 60s Movie API from the [60s Project](https://github.com/vikiboss/60s) and TMDB API to showcase real-time movie data and beautiful posters.
 
 ## ✨ 功能特点 | Features
 
@@ -16,7 +16,7 @@ This is a web application that displays global movie box office rankings, utiliz
 
 - 🌐 前端 | Frontend：原生JavaScript (ES6+)、HTML5 & CSS3
 - 🖥️ 后端 | Backend：Node.js、Express
-- 🔌 API：TMDB API、猫眼电影API (来自[60s项目](https://github.com/vikiboss/60s)) | Maoyan Movie API (from [60s Project](https://github.com/vikiboss/60s))
+- 🔌 API：TMDB API、60s项目API (来自[60s项目](https://github.com/vikiboss/60s)) | 60s Movie API (from [60s Project](https://github.com/vikiboss/60s))
 - 📦 依赖管理 | Package Management：npm
 
 ## 📋 环境要求 | Requirements
@@ -30,8 +30,8 @@ This is a web application that displays global movie box office rankings, utiliz
 
 1. 克隆或下载本项目到本地 | Clone or download this project
    ```bash
-   git clone https://your-repository-url.git
-   cd 票房
+   git clone [https://github.com/nodesire7/box-office-top.git](https://github.com/nodesire7/box-office-top.git)
+   cd box-office-top
    ```
 
 2. 安装依赖 | Install dependencies
